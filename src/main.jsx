@@ -1,12 +1,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
+import AppRoute from './AppRoute';
 
 const run = () => {
     const container = document.querySelector('#root');
     const root = createRoot(container);
-    const app = <App />;
-
+    const app = <AppRoute />;
     root.render(app);
 };
 

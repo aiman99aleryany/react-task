@@ -1,0 +1,33 @@
+CRUD App
+
+
+usernames       Add 
+---------       button
+
+aiman99aleryany   edit delete
+samaJabri         edit delete
+aryakrm           edit delete
+aaaaaa            edti delete
+
+button -> map through users in the array -> create new link to each user
+
+
+new link to Aiman'a Data -> `/aiman/userdata/ss`
+new link to Arya'a Data -> `/Arya/userdata/hello`
+new link to Sama'a Data -> `/Sama/userdata/mikolaj`
+
+
+
+when the page is loaded(when the componenet is loaded) fetch the data from this api 
+Arya: `https://api.github.com/users/ss`
+Aiman: `https://api.github.com/users/hello`
+Sama :`https://api.github.com/users/mikolaj`
+
+
+
+
+link -> fetch -> Aiman account fetched data 
+link -> sama account fetched data 
+link -> arya account fetched data 
+
+
